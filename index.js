@@ -77,9 +77,7 @@ function getWinners(array, getFinalsCB) {
     }
     //returns the new array
     return winners;
-}
-    
-   
+}   
 console.log('Task 4',getWinners(fifaData,getFinals));
 
 
@@ -93,9 +91,10 @@ Use the higher-order function getWinnersByYear to do the following:
 hint: the strings returned need to exactly match the string in step 4.
  */
 
-function getWinnersByYear(/* code here */) {
-    /* code here */
+function getWinnersByYear(array,getYearsCB,getWinnersCB){
+    
 }
+
 
 
 
@@ -109,9 +108,16 @@ Use the higher order function getAverageGoals to do the following:
  Example of invocation: getAverageGoals(getFinals(fifaData));
 */
 
-function getAverageGoals(/* code here */) {
-   /* code here */
+function getAverageGoals(getFinalsCB){
+    
 }
+
+
+  
+
+
+
+
 
 
 
